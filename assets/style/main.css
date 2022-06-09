@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+/*@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto&display=swap");*/
+
+
+ h2 {
+    font-family: 'Poppins';
+    margin-left: 130px;
+   
+}
+
+.top-titulo {
+    margin-top: 48px;
+    
+}
+
+
+.form_wrapper{
+    display: flex;
+    align-items: center;
+    padding-left: 130px;
+    
+    
+}
+
+
+.upload_img{
+    position: absolute;
+    padding-top: 30px;
+
+}
+
+input[type='file']{
+    visibility: hidden;
+    cursor: pointer;
+    
+    
+    
+}
+
+.text-img{
+    margin-left: 114px;
+    margin-top: 94px;
+}
+
+
+
+.imagem {
+    font-family: 'Roboto';
+    color: #858585;
+    position: relative;
+    width: 288px;
+    height: 212px;   
+    margin-top: 32px;
+    border: 2px solid #E5E5E5;
+    border-radius: 8px;
+
+}
+
+.cards-text{
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+}
+
+.titulo {
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #858585;
+    position: relative;
+    width: 326px;
+    height: 54px;
+    padding-left: 16px;
+    border-radius: 4px;
+    
+    
+    
+}
+
+.descricao{
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #858585;
+    position: relative;
+    height: 130px;
+    width: 414px;
+    padding-left: 16px;
+    margin-bottom: auto;
+    padding-top: 18px;
+    border-radius: 4px;
+
+}
+
+    .button{    
+        
+        font-family: 'Poppins';
+        padding: 16px 20px;
+        font-style: normal;
+        color: #fff;
+        margin-top: 16px;
+        background: #FF5A5F;
+        border: 1px solid;
+        border-radius: 8px;
+        
+        
+        
+
+}
+
+    .flex-button{
+     margin-left: 738px;
+     margin-bottom: 60px;
+     
+    
+    
+    
+    
+}
+
+
+
+

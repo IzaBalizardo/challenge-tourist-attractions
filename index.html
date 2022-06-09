@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ponto Turístico</title>
+
+    <link rel="stylesheet" href="assets/style/main.css">
+
+  </head>
+  <body>
+
+    <h2 class="top-titulo">Adicionar um Ponto Turístico</h2>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto&display=swap"
+      rel="stylesheet"/>
+
+    <form class="form_flex">
+
+      
+
+        <div class="form_wrapper">
+
+        <div class="imagem">
+
+        <div class="text-img"><label for="imagem-file">Imagem</label></div>
+
+        <input type="file" id="imagem-file" onchange="previewFile()"  />
+        
+        
+        <img src="" class="upload_img" id="file_upload">
+      </div>
+      
+      
+
+      <div class="cards-text">
+
+      <div class="titulo">
+        <input class="titulo" name="titulo" type="text" placeholder="Título" />
+      </div>
+
+      <div class="descricao">
+        <input class="descricao" name="descricao" type="text" placeholder="Descrição"/>
+      </div>
+      </div>
+      
+    </div>
+    <div class="flex-button">
+
+      <button class = "button" type="submit">Adicionar</button>
+    </div>
+    
+
+    </form>
+
+
+
+    <h2>Pontos Turístico</h2>
+
+
+        <div class="form-result">
+          <div class="form-result-head">
+
+
+          </div>
+
+          <ul class="form-items"></ul>
+
+
+
+
+        </div>
+      
+
+    <script src="scripts/app.js"></script>
+    
+
+
+
+
+    
+   
+
+  </body>
+</html>
