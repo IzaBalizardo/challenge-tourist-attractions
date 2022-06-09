@@ -1,31 +1,39 @@
 document.addEventListener('DOMContentLoaded', function(){
   const list = [];
 
+  const input = document.querySelector('.imagem-file');
   const form = document.querySelector('.form_flex');
-  const Image = document.querySelector('.imagem-file');
+  const Image = document.querySelector('.preview-img');
   const Title = document.querySelector('.titulo');
   const Desc = document.querySelector('.descricao');
   const items = document.querySelector('form-items');
-
-  
-  
   const buttonSubmit = document.querySelector('button');
+
+
+
+
+ //document.addEventListener('change', previewFile);
+ //document.addEventListener('click', )
+  
 
 
 
  // funcao pre visualização imagem
   function previewFile() {
-    const preview = document.querySelector('img');
-    const input = document.querySelector('input[type=file]').files[0];
+    const preview = document.querySelector('Image');
+    const file = document.querySelector('input[type=file]').files[0];
     const reader = new FileReader();
   
     reader.addEventListener("load", function () {
       preview.src = reader.result;
     }, false);
   
-    if (input) {
-      reader.readAsDataURL(input);
+    if (file) {
+      reader.readAsDataURL(file);
+
     }
+
+    console.log(file);
   }
 
 
